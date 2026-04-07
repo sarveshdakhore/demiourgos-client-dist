@@ -135,7 +135,7 @@ main() {
   if [[ ":${PATH}:" != *":${INSTALL_DIR}:"* ]]; then
     log "warning: ${INSTALL_DIR} is not in PATH"
   fi
-  log "run: demiourgos self update-status --check-now"
+  log "run: demiourgos --version"
 }
 
 main "$@"

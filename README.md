@@ -6,4 +6,4 @@ Public distribution repository contents should include:
 - `install.sh` for curl-based installs
 - Homebrew formula updates via tap repository
 
-This folder is authored in the private source repo and synced by release CI.
+This folder is authored in the client source repo and synced by release CI.
