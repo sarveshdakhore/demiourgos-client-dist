@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "description": "Demiourgos AI coding agent client.",
+    "homepage": "https://github.com/sarveshdakhore/client-demiourgos",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sarveshdakhore/demiourgos-client-dist/releases/download/v0.3.12/demiourgos-0.3.12-windows-amd64.tar.gz",
+            "hash": "4a27a6426217ccdb7c2d849c9e49bf28d229926bc46658fe98bedde7e6ca7d04"
+        }
+    },
+    "extract_dir": "dist",
+    "bin": "demiourgos.exe",
+    "checkver": {
+        "github": "https://github.com/sarveshdakhore/demiourgos-client-dist"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sarveshdakhore/demiourgos-client-dist/releases/download/v$version/demiourgos-$version-windows-amd64.tar.gz"
+            }
+        }
+    }
+}
