@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sarveshdakhore/demiourgos-client-dist/releases/download/v0.3.13/demiourgos-0.3.13-windows-amd64.tar.gz",
-            "hash": "df3b6f12a1431504ffe1d904d837cda8e7fe7343ba08d665ee3d17ff5891e88f"
+            "url": "https://github.com/sarveshdakhore/demiourgos-client-dist/releases/download/v0.3.14/demiourgos-0.3.14-windows-amd64.tar.gz",
+            "hash": "8cdb4af1f24e667b796b69197fc9a960d21d44e458e9af5f6dd115997bafac6d"
         }
     },
     "extract_dir": "dist",
